@@ -1,0 +1,19 @@
+# VS Code
+.vscode/
+
+# C++ executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Debug files
+*.pdb
+
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
