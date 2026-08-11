@@ -1,3 +1,25 @@
+/*
+    Problem Statement:
+    Given an array of n elements, sort the array in ascending order
+    using the Selection Sort algorithm.
+
+    Approach:
+    1. Start from the first element.
+    2. Assume it is the minimum element.
+    3. Search the remaining unsorted part to find the actual minimum.
+    4. Store the index of the minimum element in minIndex.
+    5. Swap the minimum element with the current element.
+    6. Repeat the process for the remaining unsorted elements.
+
+    Example:
+    Input:  64 25 12 22 11
+    Output: 11 12 22 25 64
+
+    Time Complexity: O(n^2)
+    Space Complexity: O(1)
+*/
+
+
 #include <iostream>
 using namespace std;
 
